@@ -16,4 +16,8 @@
  - Jumper Wires
  - USB A to B
  
+### Staistics ###
+ -Numpy
+ -Pandas
+ -Machine Learning
  

@@ -1,0 +1,17 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+
+df = pd.read_csv(r"C:\Users\Rupeshwar\Desktop\Car_Parking.csv")
+
+df.head()
+
+df.tail()
+
+df.loc[df['Rating'] >4]
+
+plt.plot(df["Year"], df["Amount"])
+
+df.plot(x="Year", y="Duration", kind="scatter")
+
