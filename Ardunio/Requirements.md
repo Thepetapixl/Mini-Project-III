@@ -1,4 +1,4 @@
-# Few Requirements Inorder to run this code:
+# Few Requirements Inorder to run blink code:
 
 ## Hardware:
 
@@ -69,6 +69,17 @@ Libraries:
 
 
 That should do it, you can further add a external LED to the board to see it blink 
+
+## For Ultrasonic Python code:
+
+### Diagram:
+
+![alt text](https://toptechboy.com/wp-content/uploads/2014/07/ultrasonic_bb.jpg) 
+
+
+
+
+
 
 
 
