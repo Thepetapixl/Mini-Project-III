@@ -38,7 +38,7 @@ def findEncodings(images):
 
 def MarkAttendance(name):
 
-    with open(r'/Users/admin/VScode/Mini-Project-III-Python/FaceRecognition/2020/Attendance.csv', 'r+') as f:
+    with open(r'/Users/admin/VScode/Mini-Project-III-Python/FaceRecognition/Final/Previous/Attendance.csv', 'r+') as f:
 
         myDataList = f.readlines()
         nameList = []
