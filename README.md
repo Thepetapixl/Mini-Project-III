@@ -28,7 +28,7 @@ But cannot be implemented in India dur to lack of space and middle mans.
 			
 ### Proposed System (Block Diagram): 
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Thepetapixl/Mini-Project-III/blob/main/Screen%20Shot%202020-11-29%20at%204.37.29%20PM.png?raw=true)
 ![alt text](http://url/to/img.png)
 
 
