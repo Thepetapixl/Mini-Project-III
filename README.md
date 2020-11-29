@@ -61,13 +61,18 @@ This module gives a continuous refresh of parking slots to drivers through cellp
 The proposed system provides a vision-based approach for detecting vacancies of parking spaces for a given context. 
 This approach of the module provides real-time updates of parking spaces to drivers via mobile phone application in order to guide them and facilitate the task of locating an available parking space.
 
-References:
+### References:
 
 1. [Google Play Store](https://play.google.com/store) for Literary survey.
 2. [Ardunio](https://www.arduino.cc/) for Hardware information.
 3. [Python](https://www.python.org/) for interconnection of codes.
 4. [Kaggle](https://www.kaggle.com/) for datasets.
 
+### Collaborator's Linkedin:
+
+[Rupeshwar Rao](https://www.linkedin.com/in/rupeshwar-rao-05a82516a/)
+[Mishalee Lambat](https://www.linkedin.com/in/mishalee-lambat-bb65b2184/)
+[Apurv Vidhate](https://www.linkedin.com/in/apurv-vidhate-b19b8b1a0/)
  
 
  
