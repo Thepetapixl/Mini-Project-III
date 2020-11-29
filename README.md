@@ -63,11 +63,10 @@ This approach of the module provides real-time updates of parking spaces to driv
 
 References:
 
-1. Google Play Store for Literary survey.
-2. Arduino.com for Hardware information.
-3. Python.org for interconnection of codes.
-4. Kaggle.com for datasets.
-
+1. [Google Play Store](https://play.google.com/store) for Literary survey.
+2. [Ardunio](https://www.arduino.cc/) for Hardware information.
+3. [Python](https://www.python.org/) for interconnection of codes.
+4. [Kaggle](https://www.kaggle.com/) for datasets.
 
  
 
