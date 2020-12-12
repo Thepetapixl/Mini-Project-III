@@ -27,7 +27,7 @@ def finalScreenPickUp(nameOfPerson):
 
 def finalScreenDropOff(nameOfPerson):
     
-    lastpg = Tk()
+    lastpg = Tk()  
 
     lastpg.title("Smart Car Parking System")
     lastpg.iconbitmap('car.ico')
