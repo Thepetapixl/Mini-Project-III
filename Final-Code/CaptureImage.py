@@ -50,5 +50,5 @@ def Capture(name):
     cv2.destroyAllWindows
     
     
-name = "Apurv Vidhate"
-Capture(name) # Only Uncomment this line when you are using the code independently 
+# name = "Apurv Vidhate"
+# Capture(name) # Only Uncomment this line when you are using the code independently 

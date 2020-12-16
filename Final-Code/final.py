@@ -68,7 +68,7 @@ def click_start():
         
         root1 = Tk()
 
-        root1.title('Frame GUI')
+        root1.title('New User')
         root1.iconbitmap(path + 'car.ico')
         root1.configure(background = "black")
 
@@ -173,7 +173,7 @@ def click_start():
         #  New page for Pick Up and Drop Off starts here 
         
         root3 = Tk() 
-        root3.title('Frame GUI')
+        root3.title('Existing User')
         root3.iconbitmap(path + 'car.ico')
         root3.configure(background = "black")
 
