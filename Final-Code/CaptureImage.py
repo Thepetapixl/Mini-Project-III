@@ -30,7 +30,7 @@ def Capture(name):
             elif k % 256 == 32:
                 #For Space key
             
-                file = '/Users/admin/VScode/Mini-Project-III-Python/Final-Code/ResFaceRecog/' + name + '.jpg'
+                file = '/Users/admin/VScode/Mini-Project-III/Final-Code/ResFaceRecog/' + name + '.jpg'
                 cv2.imwrite(file, img)
                 
                 print("Image " + str(count) + "saved")
@@ -50,5 +50,5 @@ def Capture(name):
     cv2.destroyAllWindows
     
     
-# name = "Apurv Vidhate"
+# name = "Apu"
 # Capture(name) # Only Uncomment this line when you are using the code independently 
