@@ -30,7 +30,7 @@ def Capture(name):
             elif k % 256 == 32:
                 #For Space key
             
-                file = '/Users/admin/VScode/Mini-Project-III/Final-Code/ResFaceRecog/' + name + '.jpg'
+                file = '/Users/admin/Mini-Project-III/Final-Code/ResFaceRecog/' + name + '.jpg'
                 cv2.imwrite(file, img)
                 
                 print("Image " + str(count) + "saved")
