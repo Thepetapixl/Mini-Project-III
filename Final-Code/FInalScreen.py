@@ -2,6 +2,8 @@ from tkinter import *
 import string
 import random
 
+path = ""
+
 def finalScreenPickUp(nameOfPerson):
 
     lastpg = Tk()
@@ -71,4 +73,4 @@ def FinalScreenRegister(nameOfPerson):
 
     lastpg.mainloop()
 
-# finalScreen()
+# finalScreenRegister()
