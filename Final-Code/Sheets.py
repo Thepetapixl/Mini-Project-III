@@ -118,7 +118,7 @@ def FaceRec():
                     cv2.putText(img, name, (x1 + 6, y2 - 6),
                             cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
                 
-                    print("Welcome to MITSOE " + name)
+                    print("This is a Tag to chekck of the name is passed successfully " + name)
                     # MarkAttendance(name)
                     
 
