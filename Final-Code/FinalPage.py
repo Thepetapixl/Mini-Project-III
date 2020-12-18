@@ -7,7 +7,7 @@ def finalScreenPickUp(nameOfPerson):
     lastpg = Tk()
 
     lastpg.title("Smart Car Parking System")
-    lastpg.iconbitmap('car.ico')
+    lastpg.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Final-Code\Resources\car.ico')
     lastpg.configure(background = "black")
 
     frame = LabelFrame(lastpg,padx = 100, pady = 50)
@@ -48,6 +48,4 @@ def finalScreenDropOff(nameOfPerson):
 
     lastpg.mainloop()
     
-
-
-# finalScreen()
+finalScreenPickUp('mish')

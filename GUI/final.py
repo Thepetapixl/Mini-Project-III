@@ -4,7 +4,7 @@ from PIL import Image,ImageTk
 window = Tk()
 
 window.title('Smart Car Parking System')
-window.iconbitmap('/Users/admin/Mini-Project-III/Resources/car.ico')
+window.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
 window.configure(background = "black")
 
 heading = Label(window, text = 'Smart Car Parking System', bg = "black", fg = "white",font = "Perpetua 24 bold")
@@ -14,7 +14,7 @@ frame = LabelFrame(window,padx = 100, pady = 50)
 frame.grid(padx = 10, pady = 10)
 frame.configure(background = "white")
 
-deathwing = Image.open(r'/Users/admin/Mini-Project-III/Resources/smart.png')
+deathwing = Image.open(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\smart.png')
 image = deathwing.resize((455,307),Image.ANTIALIAS)
 Deathwing = ImageTk.PhotoImage(image)
 imagelabel = Label(frame,image = Deathwing,borderwidth = 0)
@@ -28,7 +28,7 @@ def click_start():
     
     root = Tk()
     root.title('User')
-    root.iconbitmap('car.ico')
+    root.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Final-Code\Resources\car.ico')
     root.configure(background = "black")
 
     new_frame = LabelFrame(root,padx = 100, pady = 80)
@@ -45,7 +45,7 @@ def click_start():
         root1 = Tk()
 
         root1.title('Frame GUI')
-        root1.iconbitmap('/Users/admin/Mini-Project-III/Resources/car.ico')
+        root1.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
         root1.configure(background = "black")
 
         frame = LabelFrame(root1, text = 'Sign-In',padx = 100, pady = 120,font = "Perpetua 15 ")
@@ -85,7 +85,7 @@ def click_start():
 
             root2 = Tk()
             root2.title('Camera')
-            root2.iconbitmap('/Users/admin/Mini-Project-III/Resources/car.ico')
+            root2.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
             root2.geometry('400x400')
             root2.configure(background = "white")
 
@@ -102,16 +102,16 @@ def click_start():
             entryVehicleNumber.delete(0,END)
             
         print("2nd Pass")
-        next_button_image = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/next.png")
+        next_button_image = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\next.png")
         nextButton = Button(frame,image = next_button_image, command = click_next, height = 140, width = 118, bg = "white",borderwidth = 0)
         nextButton.image = next_button_image
         nextButton.grid(row = 25,column = 2)
 
-        clearbtn = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/trash.png")
+        clearbtn = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\trash.png")
         btn = Button(frame,image = clearbtn,command = click_clear ,height = 100, width = 114, bg = "white",borderwidth = 0)
         btn.image = clearbtn
         btn.grid(row = 25,column = 0)
-        exit_img = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/exit.png")
+        exit_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\exit.png")
         exit_button = Button(root1,text = 'Exit', command = root1.quit,image = exit_img,height = 50,bg = "white", width = 50,borderwidth = 0)
         exit_button.image = exit_img
         exit_button.place(x = 18,y = 490)
@@ -126,7 +126,7 @@ def click_start():
         
         root3 = Tk() 
         root3.title('Frame GUI')
-        root3.iconbitmap('/Users/admin/Mini-Project-III/Resources/car.ico')
+        root3.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
         root3.configure(background = "black")
 
         frame = LabelFrame(root3,padx = 70, pady = 100,font = "Perpetua 15 ")
@@ -136,11 +136,11 @@ def click_start():
         def click_pick_up():
             root4 = Tk()
             root4.title('User')
-            root4.iconbitmap('/Users/admin/Mini-Project-III/Resources/car.ico')
+            root4.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
             clearlabel = Label(root4,text = "Camera takes Picture")
             clearlabel.pack()
 
-        pick_up_image = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/pickup.png")
+        pick_up_image = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\pickup.png")
         pickup_button = Button(frame,image =  pick_up_image,command = click_pick_up ,height = 230, width = 290, bg = "white",borderwidth=0)
         pickup_button.image = pick_up_image
         pickup_button.grid(row = 0,column = 0)
@@ -148,7 +148,7 @@ def click_start():
         blank_label = Label(frame,text = "                  ",bg = "white")
         blank_label.grid(row = 0,column = 1)
 
-        drop_off_image = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/dropoff.png")
+        drop_off_image = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\dropoff.png")
         dropoff_button = Button(frame,image = drop_off_image,command = open ,height = 215, width = 295, bg = "white",borderwidth=0)
         dropoff_button.image = drop_off_image
         dropoff_button.grid(row = 0, column = 2)
@@ -161,7 +161,7 @@ def click_start():
 
   
     
-    new_user_img = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/new-user.png")    
+    new_user_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\new-user.png")    
     new_user_button = Button(new_frame, text = "New User",image = new_user_img , command = click_new_user,compound = TOP,borderwidth = 0,bg = "white",font = "Perpetua 15 ")
     new_user_button.image = new_user_img
     new_user_button.grid(row = 0,column = 0)
@@ -169,12 +169,12 @@ def click_start():
     blank_label = Label(new_frame,text = "             ",bg = "white")
     blank_label.grid(row = 0,column = 1)
 
-    existing_user_img = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/face-detection.png")
+    existing_user_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\face-detection.png")
     existing_user_button = Button(new_frame, text = "Existing User",image = existing_user_img,command = click_existing_user,compound = TOP,borderwidth = 0,bg = "white",font = "Perpetua 15 ")
     existing_user_button.image = existing_user_img
     existing_user_button.grid(row = 0,column = 2)
 
-    exit_img = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/exit.png")
+    exit_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\exit.png")
     exit_button = Button(root,image = exit_img,command = root.quit ,height = 50 , width = 50, bg = "white",borderwidth = 0)
     exit_button.image = exit_img
     exit_button.place(x=18,y=270) 
@@ -182,12 +182,12 @@ def click_start():
     
 
     
-start_img = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/start.png")
+start_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\start.png")
 start_button = Button(frame,image = start_img, command = click_start, height = 120, width = 190, bg = "white",borderwidth = 0)
 start_button.image = start_img
 start_button.grid(row = 1,column = 0)
 
-exit_img = PhotoImage(file = "/Users/admin/Mini-Project-III/Resources/exit.png")
+exit_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\exit.png")
 exit_button = Button(window,image = exit_img,command = window.quit ,height = 50 , width = 50, bg = "white",borderwidth = 0)
 exit_button.image = exit_img
 exit_button.place(x = 18,y = 490)
