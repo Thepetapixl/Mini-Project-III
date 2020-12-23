@@ -20,7 +20,7 @@ Only mapping techniques are good.
 Gives the additional information like Price and Operating hours as well.
 
 
-2. [PARKWHIZ](https://www.parkwhiz.com/):
+2. [PARKWHIZ:](https://www.parkwhiz.com/)
 
 A very efficient application with payment details as well.
 Implemented in New York, reviews were great.
@@ -34,9 +34,9 @@ But cannot be implemented in India dur to lack of space and middle mans.
 
 ### Softwares which are going to be used are as follows
 
-- Ardunio IDE
-- Visual Code Studio
-- Jupyter notebook 
+- [Ardunio IDE](https://www.arduino.cc/)
+- [Visual Code Studio](https://code.visualstudio.com/)
+- [Jupyter notebook](https://jupyter.org/) 
 
 ### Hardware Used 
  - ATmega2560 Arduino (Microcontroller)
