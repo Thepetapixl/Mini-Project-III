@@ -3,21 +3,21 @@ import string
 import random
 from PIL import Image,ImageTk
 
-path = ""
+path = "C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Final-Code\Resources\"
 
 def finalScreenPickUp(nameOfPerson):
 
     lastpg = Tk()
 
     lastpg.title("Smart Car Parking System")
-    lastpg.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Final-Code\Resources\car.ico')
+    lastpg.iconbitmap(path + 'car.ico')
     lastpg.configure(background = "black")
 
     frame = LabelFrame(lastpg,padx = 100, pady = 50)
     frame.grid(padx = 10, pady = 10)
     frame.configure(background = "white")
 
-    deathwing = Image.open(r'C:\Users\LENOVO OFFICIAL\Downloads\share.png')
+    deathwing = Image.open(path + 'share.png')
     image = deathwing.resize((312,312),Image.ANTIALIAS)
     Deathwing = ImageTk.PhotoImage(image)
     imagelabel = Label(frame,bg="white",image = Deathwing,borderwidth = 0)
@@ -35,14 +35,14 @@ def finalScreenDropOff(nameOfPerson):
     lastpg = Tk()  
 
     lastpg.title("Smart Car Parking System")
-    lastpg.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Final-Code\Resources\car.ico')
+    lastpg.iconbitmap(path + 'car.ico')
     lastpg.configure(background = "black")
 
     frame = LabelFrame(lastpg,padx = 100, pady = 50)
     frame.grid(padx = 10, pady = 10)
     frame.configure(background = "white")
 
-    deathwing = Image.open(r'C:\Users\LENOVO OFFICIAL\Downloads\protection.png')
+    deathwing = Image.open(path + 'protection.png')
     image = deathwing.resize((312,312),Image.ANTIALIAS)
     Deathwing = ImageTk.PhotoImage(image)
     imagelabel = Label(frame,bg="white",image = Deathwing,borderwidth = 0)
@@ -70,7 +70,7 @@ def FinalScreenRegister(nameOfPerson):
     frame.grid(padx = 10, pady = 10)
     frame.configure(background = "white")
 
-    deathwing = Image.open(r'C:\Users\LENOVO OFFICIAL\Downloads\parking-sign.png')
+    deathwing = Image.open(path + 'parking-sign.png')
     image = deathwing.resize((312,312),Image.ANTIALIAS)
     Deathwing = ImageTk.PhotoImage(image)
     imagelabel = Label(frame,bg="white",image = Deathwing,borderwidth = 0)
