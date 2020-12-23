@@ -12,7 +12,7 @@ This paper aims to present an intelligent system for parking space detection bas
 
 ### Literature Survey: Few Applications based on Car Parking.
 
-1. PARKER: Find available parking
+1. [PARKER:](https://www.theparkerapp.com/) Find available parking
 
 A good application for the ones who travel frequently.
 It has got no rules and maps for local streets.
@@ -20,7 +20,7 @@ Only mapping techniques are good.
 Gives the additional information like Price and Operating hours as well.
 
 
-2. PARKWHIZ:
+2. [PARKWHIZ](https://www.parkwhiz.com/):
 
 A very efficient application with payment details as well.
 Implemented in New York, reviews were great.
