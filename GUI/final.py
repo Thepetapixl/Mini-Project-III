@@ -44,7 +44,7 @@ def click_start():
         
         root1 = Tk()
 
-        root1.title('Frame GUI')
+        root1.title('New User')
         root1.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
         root1.configure(background = "black")
 
@@ -114,7 +114,7 @@ def click_start():
         exit_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\exit.png")
         exit_button = Button(root1,text = 'Exit', command = root1.quit,image = exit_img,height = 50,bg = "white", width = 50,borderwidth = 0)
         exit_button.image = exit_img
-        exit_button.place(x = 18,y = 490)
+        exit_button.place(x = 18,y = 500)
        
         #third page.new user ends here
     
@@ -125,7 +125,7 @@ def click_start():
         #third page.existing user ends here
         
         root3 = Tk() 
-        root3.title('Frame GUI')
+        root3.title('Existing User')
         root3.iconbitmap(r'C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\car.ico')
         root3.configure(background = "black")
 
@@ -177,7 +177,7 @@ def click_start():
     exit_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\exit.png")
     exit_button = Button(root,image = exit_img,command = root.quit ,height = 50 , width = 50, bg = "white",borderwidth = 0)
     exit_button.image = exit_img
-    exit_button.place(x=18,y=270) 
+    exit_button.place(x=18,y=300) 
     #2nd page ends here
     
 
@@ -190,6 +190,6 @@ start_button.grid(row = 1,column = 0)
 exit_img = PhotoImage(file = r"C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Resources\exit.png")
 exit_button = Button(window,image = exit_img,command = window.quit ,height = 50 , width = 50, bg = "white",borderwidth = 0)
 exit_button.image = exit_img
-exit_button.place(x = 18,y = 490)
+exit_button.place(x = 15,y = 510)
 
 window.mainloop()

@@ -9,7 +9,7 @@ from PIL import Image,ImageTk
 
 import Sheets
 import CaptureImage
-import testguirandom
+import FinalScreen
 import names
 
 path = r"/Users/admin/Mini-Project-III/Resources/"
@@ -56,7 +56,7 @@ def click_start():
     
     # A check / tag to see if it is working properly
     
-    print("This has been passsed")  
+    print("This is is the first Tag to check of the code is working so far")  
     
     
     # New User button function starts here:
@@ -68,7 +68,7 @@ def click_start():
         
         root1 = Tk()
 
-        root1.title('Frame GUI')
+        root1.title('New User')
         root1.iconbitmap(path + 'car.ico')
         root1.configure(background = "black")
 
@@ -124,8 +124,9 @@ def click_start():
             
             # Moves to the park car option
             
-            click_existing_user()
-
+            FinalScreen.FinalScreenRegister(name)
+            
+            
         # Clear button incase the user made a mistake in the form filling
         
         def click_clear():
@@ -136,19 +137,19 @@ def click_start():
             
         # A Tag / Check to see if the code is working till here:
             
-        print("2nd Pass")
+        print("This is Tag for checking if the code is working properly")
         
         # Next button Properties:
         
         next_button_image = PhotoImage(file = path + "next.png")
-        nextButton = Button(frame,image = next_button_image, command = click_next, height = 140, width = 118, bg = "white",borderwidth = 0)
+        nextButton = Button(frame,image = next_button_image, command = click_next, height = 116, width = 138, bg = "white",borderwidth = 0)
         nextButton.image = next_button_image
         nextButton.grid(row = 25,column = 2)
         
         # Clear Button Properties:
 
         clearbtn = PhotoImage(file = path + "trash.png")
-        btn = Button(frame,image = clearbtn,command = click_clear ,height = 100, width = 114, bg = "white",borderwidth = 0)
+        btn = Button(frame,image = clearbtn,command = click_clear ,height = 80, width = 80, bg = "white",borderwidth = 0)
         btn.image = clearbtn
         btn.grid(row = 25,column = 0)
         
@@ -173,7 +174,7 @@ def click_start():
         #  New page for Pick Up and Drop Off starts here 
         
         root3 = Tk() 
-        root3.title('Frame GUI')
+        root3.title('Existing User')
         root3.iconbitmap(path + 'car.ico')
         root3.configure(background = "black")
 
@@ -189,18 +190,15 @@ def click_start():
             root3.destroy()
                 
             name = Sheets.FaceRec() 
-            testguirandom.finalScreenPickUp(name)
-            
-            # finalpage.function()
-            
+            FinalScreen.finalScreenPickUp(name)
+                        
         def click_drop_off():
             
             # Calls the function FaceRec() file from Sheets.py
             
             name = Sheets.FaceRec() 
-            testguirandom.finalScreenDropOff(name)
-            # testguirandom.finalScreen()
-            
+            FinalScreen.finalScreenDropOff(name)
+                        
         # Properties for Pick UP 
 
         pick_up_image = PhotoImage(file = path + "pickup.png")
@@ -257,8 +255,8 @@ def click_start():
 
 # Start Button Properties:
     
-start_img = PhotoImage(file = path + "start.png")
-start_button = Button(frame,image = start_img, command = click_start, height = 120, width = 190, bg = "white",borderwidth = 0)
+start_img = PhotoImage(file = path + "next.png")
+start_button = Button(frame,image = start_img, command = click_start, height = 116, width = 138, bg = "white",borderwidth = 0)
 start_button.image = start_img
 start_button.grid(row = 1,column = 0)
 
