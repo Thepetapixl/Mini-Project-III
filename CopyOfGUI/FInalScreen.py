@@ -50,9 +50,6 @@ def finalScreenDropOff(nameOfPerson):
 
     lastpg.mainloop()
     
-<<<<<<< HEAD:Final-Code/FinalPage.py
-finalScreenPickUp('mish')
-=======
 def FinalScreenRegister(nameOfPerson):
     
     lastpg = Tk()  
@@ -77,4 +74,3 @@ def FinalScreenRegister(nameOfPerson):
     lastpg.mainloop()
 
 # finalScreenRegister()
->>>>>>> 15c77a2a16ac04a3166d4234cccf7f85a03225ee:Final-Code/FInalScreen.py

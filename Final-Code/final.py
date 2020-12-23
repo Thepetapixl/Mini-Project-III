@@ -9,7 +9,7 @@ from PIL import Image,ImageTk
 
 import Sheets
 import CaptureImage
-import FinalScreen
+import FinalPage
 import names
 
 path = r"/Users/admin/Mini-Project-III/Resources/"
@@ -124,7 +124,7 @@ def click_start():
             
             # Moves to the park car option
             
-            FinalScreen.FinalScreenRegister(name)
+            FinalPage.FinalScreenRegister(name)
             
             
         # Clear button incase the user made a mistake in the form filling
@@ -190,14 +190,14 @@ def click_start():
             root3.destroy()
                 
             name = Sheets.FaceRec() 
-            FinalScreen.finalScreenPickUp(name)
+            FinalPage.finalScreenPickUp(name)
                         
         def click_drop_off():
             
             # Calls the function FaceRec() file from Sheets.py
             
             name = Sheets.FaceRec() 
-            FinalScreen.finalScreenDropOff(name)
+            FinalPage.finalScreenDropOff(name)
                         
         # Properties for Pick UP 
 
