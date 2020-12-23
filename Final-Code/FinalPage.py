@@ -86,3 +86,5 @@ def FinalScreenRegister(nameOfPerson):
 # Only Uncomment the line below when you want to run the current file
 
 # finalScreenPickUp("Apurv Vidhate") 
+# finalScreenDropOff("Apurv Vidhate")
+# FinalScreenRegister("Apurv Vidhate")
