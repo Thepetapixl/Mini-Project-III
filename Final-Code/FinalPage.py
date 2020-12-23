@@ -3,7 +3,7 @@ import string
 import random
 from PIL import Image,ImageTk
 
-path = "C:\Users\LENOVO OFFICIAL\Desktop\Mini-Project-III\Final-Code\Resources\"
+path = "/Users/admin/Mini-Project-III/Final-Code/Resources/"
 
 def finalScreenPickUp(nameOfPerson):
 
@@ -83,4 +83,6 @@ def FinalScreenRegister(nameOfPerson):
 
     lastpg.mainloop()
 
-#finalScreenPickUp()
+# Only Uncomment the line below when you want to run the current file
+
+# finalScreenPickUp("Apurv Vidhate") 
