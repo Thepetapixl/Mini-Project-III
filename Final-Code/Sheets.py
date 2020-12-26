@@ -3,7 +3,6 @@ import numpy as np
 import face_recognition
 import os
 from datetime import datetime
-import FinalScreen
 import ImageFirebase
 
 
@@ -11,7 +10,7 @@ def FaceRec():
     
     # ImageFirebase.BringFromFirebase()
 
-    path = r'/Users/admin/VScode/Mini-Project-III-Python/Final-Code/ResFaceRecog/'
+    path = r'/Users/admin/Mini-Project-III/Final-Code/ResFaceRecog/'
     images = []
     classNames = []
 
