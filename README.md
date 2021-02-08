@@ -2,6 +2,8 @@
 
 ## Project on Smart Parking System 
 
+### Research paper published [here](https://www.ijraset.com/fileserve.php?FID=32904)
+
 ### Problem Statement:
 
 A vehicle parking system that helps drivers find a vacant spot. Using sensors in each parking space that detect the presence or absence of a vehicle, signs direct incoming drivers to available locations. 
@@ -65,7 +67,7 @@ This approach of the module provides real-time updates of parking spaces to driv
 
 1. [Google Play Store](https://play.google.com/store) for Literary survey.
 2. [Ardunio](https://www.arduino.cc/) for Hardware information.
-3. [Python](https://www.python.org/) for interconnection of codes.
+3. [Python](https://www.python.org/) for the prototype.
 4. [Kaggle](https://www.kaggle.com/) for datasets.
 
 ### Collaborator's Linkedin:
