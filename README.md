@@ -26,7 +26,7 @@ Gives the additional information like Price and Operating hours as well.
 
 A very efficient application with payment details as well.
 Implemented in New York, reviews were great.
-But cannot be implemented in India dur to lack of space and middle mans.
+But cannot be implemented in India due to lack of space and middle mans.
 			
 ### Proposed System (Block Diagram): 
 
